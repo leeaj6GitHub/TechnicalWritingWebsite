@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-right: 1px solid #ccc;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 270px; /* Adjust this value to match the menu width */
+    padding: 80px;
+}
