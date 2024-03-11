@@ -11,12 +11,14 @@
 }
 
 .logo {
-    margin-right: 20px; /* Adjust spacing */
+    margin-right: 20px;
+    /* Adjust spacing */
     margin-left: 15px;
 }
 
 .logo img {
-    width: 50px; /* Adjust according to your logo size */
+    width: 50px;
+    /* Adjust according to your logo size */
 }
 
 .title {
@@ -35,15 +37,20 @@ body {
 }
 
 .styled-link {
-    font-family: Arial, sans-serif; /* Use the desired font with fallback to a generic sans-serif font */
-    font-size: 20px; /* Adjust font size as needed */
-    color: #fff; /* Set the color of the links */
-    text-decoration: none; /* Remove underline from links if desired */
+    font-family: Arial, sans-serif;
+    /* Use the desired font with fallback to a generic sans-serif font */
+    font-size: 20px;
+    /* Adjust font size as needed */
+    color: #fff;
+    /* Set the color of the links */
+    text-decoration: none;
+    /* Remove underline from links if desired */
 }
 
 /* Apply font to visited links */
 .styled-link:visited {
-    color: #c4c4c4; /* Set the color of visited links */
+    color: #c4c4c4;
+    /* Set the color of visited links */
 }
 
 .menu {
@@ -53,7 +60,8 @@ body {
     margin-top: 104px;
     top: 0;
     left: 0;
-    background-color: rgba(51, 51, 51, 0.822);;
+    background-color: rgba(51, 51, 51, 0.822);
+    ;
     color: #fff;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -72,7 +80,8 @@ body {
 }
 
 .content {
-    margin-left: 270px; /* Adjust this value to match the menu width */
+    margin-left: 270px;
+    /* Adjust this value to match the menu width */
     padding: 80px;
     margin-top: 50px;
     background-color: #f8f6da;
@@ -88,21 +97,28 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     color: #333;
 }
+
 h4 {
     color: #fff;
     font-size: 22px;
 }
+
 p {
     color: #333;
     line-height: 1.6;
 }
+
 ol {
     list-style-type: decimal;
     margin-left: 20px;
 }
+
 li {
     margin-bottom: 10px;
 }
