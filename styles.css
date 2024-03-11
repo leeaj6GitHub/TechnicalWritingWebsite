@@ -138,3 +138,7 @@ li {
 .arrow-right {
     right: 20px;
 }
+
+.info-photo {
+    height: 400px;
+}
